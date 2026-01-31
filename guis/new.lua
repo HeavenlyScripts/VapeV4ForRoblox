@@ -88,7 +88,7 @@ local getcustomassets = {
 	['HeavenlyVape/assets/new/guislider.png'] = 'rbxassetid://14368320020',
 	['HeavenlyVape/assets/new/guisliderrain.png'] = 'rbxassetid://14368321228',
 	['HeavenlyVape/assets/new/guiv4.png'] = 'rbxassetid://14368322199',
-	['HeavenlyVape/assets/new/guiheavenly.png'] = '',
+	['HeavenlyVape/assets/new/guiheavenly.png'] = 'rbxassetid://75488037107903',
 	['HeavenlyVape/assets/new/info.png'] = 'rbxassetid://14368324807',
 	['HeavenlyVape/assets/new/inventoryicon.png'] = 'rbxassetid://14928011633',
 	['HeavenlyVape/assets/new/legit.png'] = 'rbxassetid://14425650534',
@@ -2486,7 +2486,7 @@ function mainapi:CreateGUI()
 	logo.Size = UDim2.fromOffset(62, 18)
 	logo.Position = UDim2.fromOffset(11, 10)
 	logo.BackgroundTransparency = 1
-	logo.Image = "rbxassetid://120536320464344"
+	logo.Image = ""
 	logo.ImageColor3 = select(3, uipallet.Main:ToHSV()) > 0.5 and uipallet.Text or Color3.new(1, 1, 1)
 	logo.Parent = window
 	local logov4 = Instance.new('ImageLabel')
