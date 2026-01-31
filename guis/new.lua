@@ -2530,7 +2530,7 @@ function mainapi:CreateGUI()
 	local discordText = Instance.new("TextLabel")
 	discordText.Name = "DiscordText"
 	discordText.Size = UDim2.fromOffset(80, 16)
-	discordText.Position = UDim2.new(1, -56 - 200, 0, 11) 
+	discordText.Position = UDim2.new(1, -56 - 160, 0, 11) 
 	discordText.BackgroundTransparency = 1
 	discordText.Text = "Heavenly"
 	discordText.TextXAlignment = Enum.TextXAlignment.Right
