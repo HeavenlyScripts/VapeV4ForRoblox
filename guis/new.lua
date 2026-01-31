@@ -2536,7 +2536,7 @@ function mainapi:CreateGUI()
 	discordText.TextXAlignment = Enum.TextXAlignment.Right
 	discordText.TextYAlignment = Enum.TextYAlignment.Center
 	discordText.TextColor3 = uipallet.Text
-	discordText.TextSize = 12
+	discordText.TextSize = 18
 	discordText.FontFace = uipallet.Font
 	discordText.Parent = window						
 	local settingspane = Instance.new('TextButton')
