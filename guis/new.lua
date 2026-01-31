@@ -2527,6 +2527,18 @@ function mainapi:CreateGUI()
 	discordbutton.Image = getcustomasset('HeavenlyVape/assets/new/discord.png')
 	discordbutton.Parent = window
 	addTooltip(discordbutton, 'Join discord')
+	local discordText = Instance.new("TextLabel")
+	discordText.Name = "DiscordText"
+	discordText.Size = UDim2.fromOffset(80, 16)
+	discordText.Position = UDim2.new(1, -56 - 84, 0, 11) -- to the left of the icon
+	discordText.BackgroundTransparency = 1
+	discordText.Text = "Heavenly"
+	discordText.TextXAlignment = Enum.TextXAlignment.Right
+	discordText.TextYAlignment = Enum.TextYAlignment.Center
+	discordText.TextColor3 = uipallet.Text
+	discordText.TextSize = 12
+	discordText.FontFace = uipallet.Font
+	discordText.Parent = window						
 	local settingspane = Instance.new('TextButton')
 	settingspane.Size = UDim2.fromScale(1, 1)
 	settingspane.BackgroundColor3 = color.Dark(uipallet.Main, 0.02)
